@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="339.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="opdracht1.FXMLDocumentController">
+    <children>
+        <Button fx:id="cijfer1" layoutX="46.0" layoutY="193.0" onAction="#Cijferklik" text="1" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="cijfer2" layoutX="103.0" layoutY="193.0" mnemonicParsing="false" onAction="#Cijferklik" text="2" />
+      <Button fx:id="cijfer3" layoutX="158.0" layoutY="193.0" mnemonicParsing="false" onAction="#Cijferklik" text="3" />
+      <Button fx:id="cijfer4" layoutX="225.0" layoutY="193.0" mnemonicParsing="false" onAction="#Cijferklik" text="4" />
+      <Button fx:id="cijfer5" layoutX="285.0" layoutY="193.0" mnemonicParsing="false" onAction="#Cijferklik" text="5" />
+      <Button fx:id="cijfer6" layoutX="46.0" layoutY="240.0" mnemonicParsing="false" onAction="#Cijferklik" text="6" />
+      <Button fx:id="cijfer7" layoutX="103.0" layoutY="240.0" mnemonicParsing="false" onAction="#Cijferklik" text="7" />
+      <Button fx:id="cijfer8" layoutX="158.0" layoutY="240.0" mnemonicParsing="false" onAction="#Cijferklik" text="8" />
+      <Button fx:id="cijfer9" layoutX="225.0" layoutY="240.0" mnemonicParsing="false" onAction="#Cijferklik" text="9" />
+      <Button fx:id="IsButton" layoutX="284.0" layoutY="301.0" mnemonicParsing="false" onAction="#Uitkomstberekenen" text="=" />
+      <Button fx:id="plus" layoutX="43.0" layoutY="301.0" mnemonicParsing="false" onAction="#Cijferklik" text="+" />
+      <Button fx:id="min" layoutX="104.0" layoutY="301.0" mnemonicParsing="false" onAction="#Cijferklik" text="-" />
+      <Button fx:id="keer" layoutX="159.0" layoutY="301.0" mnemonicParsing="false" onAction="#Cijferklik" text="X" />
+      <Button fx:id="delendoor" layoutX="226.0" layoutY="301.0" mnemonicParsing="false" onAction="#Cijferklik" text="/" />
+      <Button fx:id="clearButton" layoutX="276.0" layoutY="240.0" mnemonicParsing="false" onAction="#clearText" text="clear" />
+      <TextField id="textfield" fx:id="tekstveld" layoutX="40.0" layoutY="50.0" prefHeight="71.0" prefWidth="264.0" text="0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>
